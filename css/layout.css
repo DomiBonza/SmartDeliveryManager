@@ -1,0 +1,54 @@
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+/* #Layout CSS
+================================================== */
+
+body{
+	background-color: #FFFFFF;
+}
+
+#wrap-header{
+	background-color: #F0F1F2;
+	border-bottom: 1px solid #DBDBDB;
+}
+
+#contenedor-logo{
+	padding-top: 10%;
+}
+
+#contenedor-login{
+	background-color: #00CAF7;
+	border-bottom: 1px solid #00ADD4;
+	border-left: 1px solid #00ADD4;
+	padding: 5px;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#contenedor-login table td{
+	padding: 2px;
+	margin: 0;
+}
+
+#contenedor-login input[type="text"],#contenedor-login input[type="password"]{
+	height: 10px;
+	width: 90%;
+	margin: 0;
+}
+
