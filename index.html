@@ -7,22 +7,24 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/skeleton.css">
+		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/layout.css">
 	</head>
 	<body>		
 		<header id="wrap-header">
 			<div class="container">
-				<div class="eight columns alpha">
+				<div class="nine columns alpha">
 					<div id="contenedor-logo">
 						<img src="imgs/logo.png" />
 					</div>
 				</div>
-				<div class="eight columns omega">
+				<div class="seven columns omega">
 					<div id="contenedor-login">
 					<table>
 						<tr>
 							<td>Correo</td>
 							<td>Contrase&ntilde;a</td>
+							<td></td>
 						</tr>
 						<tr>
 							<td><input type="text" name="correo" /></td>
@@ -32,14 +34,50 @@
 						<tr>
 							<td><input type="radio" name="tipo" value="empresa"> Empresa <input type="radio" name="tipo" value="admin"> Administrador</td>
 							<td>&iquest;Olvid&oacute; su contrase&ntilde;a?</td>
+							<td></td>
 						</tr>
 					</table>
 					</div>
 				</div>
 			</div>
 		</header>
-		<section id="imagenapp"></section>
-		<section id="quees"></section>
-		<section id="registro"></section>
+		<div class="container">
+			<div class="six columns alpha">
+				<section id="imagenapp">lalalala</section>
+			</div>
+			<div class="ten columns omega">
+				<section id="quees">
+					<h2>Tenga el control sobre su servicio de reparto de productos con Smart Delivery Manager</h2>
+					<p>Con SDM podr&aacute; conocer y ver la ubiaci&oacute;n de sus repartidores entre otras herramientas, adem&aacute;s de poder instalar la aplicaci&oacute;n para smartphone en los tel&eacute;fonos m&oacute;viles de sus repartidores.</p>
+				</section>
+				<section id="features">
+					<h2>SDM incluye</h2>
+					<ul>
+						<li>Informaci&oacute;n de la ubicaci&oacute;n de sus repartidores.</li>
+						<li>Informaci&oacute;n acerca de los repartos.</li>
+						<li>Estad&iacute;sticas.</li>
+						<li>Informaci&oacute;n de la ubiaci&oacute;n de los productos y c&oacute; llegar</li>
+						<li>Confirmaci&oacute;n de entrega</li>
+						<li>y m&aacute;s</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<footer id="registro">
+			<div class="container">
+				<div class="sixteen columns">
+					<h2>Registre su Empresa &#9660;</h2>
+					<div id="regform">
+						<form method="POST" action="registrar_empresa.php" >
+							Nombre de Empresa<br /><input type="text" name="nombre" /><br/>
+							Correo Electr&oacute;nico<br /><input type="text" name="correo" /><br/>
+							Password<br /><input type="password" name="password" /><br />
+							<input name="buscar" type="submit" value="Registrame" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
 	</body>
 </html>

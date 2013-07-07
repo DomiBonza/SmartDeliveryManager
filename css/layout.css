@@ -28,7 +28,10 @@ body{
 }
 
 #contenedor-logo{
-	padding-top: 10%;
+	padding: 10px;
+}
+#contenedor-logo img{
+	margin: 0;
 }
 
 #contenedor-login{
@@ -50,5 +53,52 @@ body{
 	height: 10px;
 	width: 90%;
 	margin: 0;
+}
+
+#contenedor-login input[type="submit"]{
+	height: 25px;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+}
+
+#quees h2, #features h2{
+	margin:0;
+	padding: 10px 0px 10px 0px;
+	color: #F58704;
+	font-size: 28px;
+	text-align: justify;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 25px;
+}
+
+#registro{
+	background-color: #F4F4F4;
+	border-top: 1px solid #E3E3E3;
+	color: #F7941D;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	width: 100%;
+}
+
+#registro h2{
+	margin:0;
+	padding: 10px 0px 10px 0px;
+	color: #00B1D9;
+	font-size: 34px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#regform{
+	margin:0 auto 0 auto;
+	text-align: left !important;
+}
+
+#regform input{
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
 }
 
